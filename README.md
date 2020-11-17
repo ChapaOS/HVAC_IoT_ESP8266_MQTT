@@ -37,9 +37,10 @@ Files Available.
 6. stormcalc.py - Python weather helper functions
 
 Setup Instructions to be revised shortly.
-1. Set up Raspberry Pi to install mosquitto server and NTP Server
+1. Set up Raspberry Pi to install a mosquitto server and NTP Server.
+2. Install paho-mqtt via 'pip install paho-mqtt' see https://pypi.org/project/paho-mqtt/
 2. Ensure the servers are running.
-3. Install/load code onto NodeMCU devices. Edit wifi info as necessary. Test sensors prior to installation.
+3. Install/load code onto NodeMCU devices. Edit wifi/mqtt info as necessary. Test sensors prior to installation.
 4. Log into Wunderground.com and create a Personal Weather station. Should be able to obtain key and password.
 5. Update and Run Python scripts with Key and Password above and updated wifi network info.
 
